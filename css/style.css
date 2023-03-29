@@ -69,7 +69,7 @@ h4 {
 }
 
 .summary {
-	height: 60vh;
+	min-height: 60vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -93,7 +93,8 @@ img {
 }
 
 .site-left {
-	height: 5vh;
+	display: flex;
+	align-items: center;
 	margin-left: 1em;
 }
 
@@ -189,32 +190,31 @@ button {
 
 	.score {
 		border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
+		border-bottom-left-radius: 30px;
 		border-bottom-right-radius: 0%;
 	}
 
 	.summary {
 		height: 70vh;
-        justify-content: space-around;
-        box-shadow: 17px 7px 25px -9px rgba(66, 68, 90, 0.21);
+		justify-content: space-around;
+		box-shadow: 17px 7px 25px -9px rgba(66, 68, 90, 0.21);
 		border-bottom-right-radius: 30px;
 		border-top-right-radius: 30px;
-        margin: 0;
+		margin: 0;
 	}
 
 	.summary div {
 		width: 25vw;
 	}
 
-    .site-left {
-        margin-left: .7em;
-    }
-    .site-right {
-        margin-left: 2em;
-    }
+	.site-left {
+		margin-left: 0.7em;
+	}
+	.site-right {
+		margin-left: 2em;
+	}
 
 	button {
 		width: 25vw;
 	}
-
 }
